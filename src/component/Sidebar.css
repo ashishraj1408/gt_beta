@@ -1,0 +1,44 @@
+.sidebar {
+  width: 200px;
+  /* height: 500px; Fixed height */
+  background-color: #f8eae1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #006400;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 10px 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.user-info {
+  text-align: center;
+}
+
+.user-info p {
+  margin: 10px 0;
+}
+
+.user-info button {
+  background-color: #1890ff;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}

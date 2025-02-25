@@ -1,0 +1,69 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.dashboard-content {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Make content stack vertically */
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.search-checkbox {
+  transform: scale(1.5);
+}
+
+.date-picker-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: end;
+}
+
+.date-picker {
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.stats-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-grow: 1; /* Ensure stats-section takes up available space */
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: auto; /* Push the button section to the bottom */
+}
+
+.button-middle {
+  padding: 0px 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #006400;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004d00;
+}
